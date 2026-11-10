@@ -28,3 +28,4 @@ while IFS= read -r linie || [[ -n "$linie" ]]; do
         verifica_ip "$nume" "$ip" "$server_dns"
     done
 done < /etc/hosts
+echo "Autorul modificarii: Azridal"
